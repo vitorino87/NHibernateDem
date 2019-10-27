@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Add this element -->
+<hibernate-configuration xmlns="urn:nhibernate-configuration-2.2">
+  <session-factory>
+    <property name="dialect">NHibernate.Dialect.MsSql2012Dialect</property>
+    <property name="connection.connection_string">
+      persist security info=false;data source=Win7-PC\TIAGO;initial catalog=TIAGO;user id=TIAGO;password=tiago
+    </property>
+    <property name="show_sql">true</property>
+    <property name="connection.provider">NHibernate.Connection.DriverConnectionProvider</property>
+    <mapping assembly="NHibernateDemo" />
+  </session-factory>
+</hibernate-configuration>
