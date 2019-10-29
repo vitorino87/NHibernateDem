@@ -19,7 +19,7 @@ namespace NHibernateDemo
 					//configuration.Configure("C:\\Users\\Win7\\source\\repos\\NHibernateDemo\\NHibernateDemo\\hibernate.cfg.xml");
 					//configuration.Configure("C:\\Users\\Win7\\source\\repos\\NHibernateDemo\\NHibernateDemo\\hibernate2.hbm.xml");
 					configuration.Configure("C:\\Users\\Win7\\source\\repos\\NHibernateDemo\\NHibernateDemo\\hibernate3.cfg.xml");
-					configuration.AddAssembly(typeof(Pessoa).Assembly);
+					//configuration.AddAssembly(typeof(Pessoa).Assembly);
 					configuration.AddFile("C:\\Users\\Win7\\source\\repos\\NHibernateDemo\\NHibernateDemo\\Pessoa.hbm.xml");
 					_sessionFactory = configuration.BuildSessionFactory();
 				}

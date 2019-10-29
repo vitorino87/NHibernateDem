@@ -20,7 +20,7 @@ namespace NHibernateDemo
 					var princess = new Pessoa
 					{
 						Nome = "Princess",
-						Id = 12
+						Id = 13
 					};
 					session.Save(princess);
 					tx.Commit();
